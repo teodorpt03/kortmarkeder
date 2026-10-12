@@ -1,0 +1,361 @@
+omraade,h,maal,modell,MAE,RMSE,n,skill_vs_persistens,treffsikkerhet,Brier,horisont
+NO1,1,spread,persistens,5.80056,63.99098,27300.0,0.0,,,15 min
+NO1,1,spread,sesongnaiv,15.22657,92.06745,27300.0,-1.62502,,,15 min
+NO1,1,spread,klimatologi,11.97247,66.65105,27300.0,-1.06402,,,15 min
+NO1,1,spread,nullmodell,10.22757,65.49594,27300.0,-0.76321,,,15 min
+NO1,1,spread,ARX (ridge),9.29748,60.76223,27300.0,-0.60286,,,15 min
+NO1,1,spread,GBM,5.67328,63.76763,27300.0,0.02194,,,15 min
+NO1,1,ubal_mwh,persistens,6.08773,8.72555,25903.0,0.0,,,15 min
+NO1,1,ubal_mwh,sesongnaiv,28.01233,36.53805,25903.0,-3.60144,,,15 min
+NO1,1,ubal_mwh,klimatologi,23.34724,30.53143,25903.0,-2.83513,,,15 min
+NO1,1,ubal_mwh,nullmodell,24.37696,31.77345,25903.0,-3.00428,,,15 min
+NO1,1,ubal_mwh,ARX (ridge),6.54002,9.11498,25903.0,-0.0743,,,15 min
+NO1,1,ubal_mwh,GBM,5.93209,8.43645,25903.0,0.02557,,,15 min
+NO1,1,retning,persistens,,,27300.0,,0.85227,0.14773,15 min
+NO1,1,retning,sesongnaiv,,,27300.0,,0.56451,0.43549,15 min
+NO1,1,retning,klimatologi,,,27300.0,,0.56201,0.25177,15 min
+NO1,1,retning,nullmodell,,,27300.0,,0.49297,0.50703,15 min
+NO1,1,retning,Logistisk,,,27300.0,,0.84967,0.11522,15 min
+NO1,1,retning,GBM,,,27300.0,,0.85278,0.11244,15 min
+NO1,4,spread,persistens,9.87571,90.28582,27300.0,0.0,,,1 time
+NO1,4,spread,sesongnaiv,15.22657,92.06745,27300.0,-0.54182,,,1 time
+NO1,4,spread,klimatologi,11.97247,66.65105,27300.0,-0.21231,,,1 time
+NO1,4,spread,nullmodell,10.22757,65.49594,27300.0,-0.03563,,,1 time
+NO1,4,spread,ARX (ridge),10.40101,65.31658,27300.0,-0.05319,,,1 time
+NO1,4,spread,GBM,8.22112,64.6062,27300.0,0.16754,,,1 time
+NO1,4,ubal_mwh,persistens,11.25208,15.08665,25903.0,0.0,,,1 time
+NO1,4,ubal_mwh,sesongnaiv,28.01233,36.53805,25903.0,-1.48952,,,1 time
+NO1,4,ubal_mwh,klimatologi,23.34724,30.53143,25903.0,-1.07493,,,1 time
+NO1,4,ubal_mwh,nullmodell,24.37697,31.77336,25903.0,-1.16644,,,1 time
+NO1,4,ubal_mwh,ARX (ridge),10.90956,14.5548,25903.0,0.03044,,,1 time
+NO1,4,ubal_mwh,GBM,10.82228,14.37689,25903.0,0.0382,,,1 time
+NO1,4,retning,persistens,,,27300.0,,0.7485,0.2515,1 time
+NO1,4,retning,sesongnaiv,,,27300.0,,0.56451,0.43549,1 time
+NO1,4,retning,klimatologi,,,27300.0,,0.56201,0.25177,1 time
+NO1,4,retning,nullmodell,,,27300.0,,0.49297,0.50703,1 time
+NO1,4,retning,Logistisk,,,27300.0,,0.75084,0.17167,1 time
+NO1,4,retning,GBM,,,27300.0,,0.74993,0.17115,1 time
+NO1,16,spread,persistens,13.83433,91.41427,27300.0,0.0,,,4 timer
+NO1,16,spread,sesongnaiv,15.22657,92.06745,27300.0,-0.10064,,,4 timer
+NO1,16,spread,klimatologi,11.97247,66.65105,27300.0,0.13458,,,4 timer
+NO1,16,spread,nullmodell,10.22757,65.49594,27300.0,0.26071,,,4 timer
+NO1,16,spread,ARX (ridge),11.31487,65.49909,27300.0,0.18212,,,4 timer
+NO1,16,spread,GBM,9.80367,65.14453,27300.0,0.29135,,,4 timer
+NO1,16,ubal_mwh,persistens,21.14417,27.19069,25903.0,0.0,,,4 timer
+NO1,16,ubal_mwh,sesongnaiv,28.01233,36.53805,25903.0,-0.32483,,,4 timer
+NO1,16,ubal_mwh,klimatologi,23.34724,30.53143,25903.0,-0.10419,,,4 timer
+NO1,16,ubal_mwh,nullmodell,24.37962,31.77663,25903.0,-0.15302,,,4 timer
+NO1,16,ubal_mwh,ARX (ridge),18.36296,23.75342,25903.0,0.13154,,,4 timer
+NO1,16,ubal_mwh,GBM,18.72786,24.26508,25903.0,0.11428,,,4 timer
+NO1,16,retning,persistens,,,27300.0,,0.61974,0.38026,4 timer
+NO1,16,retning,sesongnaiv,,,27300.0,,0.56451,0.43549,4 timer
+NO1,16,retning,klimatologi,,,27300.0,,0.56201,0.25177,4 timer
+NO1,16,retning,nullmodell,,,27300.0,,0.49297,0.50703,4 timer
+NO1,16,retning,Logistisk,,,27300.0,,0.63769,0.22011,4 timer
+NO1,16,retning,GBM,,,27300.0,,0.63608,0.22319,4 timer
+NO1,96,spread,persistens,15.22657,92.06745,27300.0,0.0,,,1 døgn
+NO1,96,spread,sesongnaiv,15.22657,92.06745,27300.0,0.0,,,1 døgn
+NO1,96,spread,klimatologi,11.97247,66.65105,27300.0,0.21371,,,1 døgn
+NO1,96,spread,nullmodell,10.22757,65.49594,27300.0,0.32831,,,1 døgn
+NO1,96,spread,ARX (ridge),10.7487,65.51567,27300.0,0.29408,,,1 døgn
+NO1,96,spread,GBM,10.21413,65.43143,27300.0,0.32919,,,1 døgn
+NO1,96,ubal_mwh,persistens,28.01233,36.53805,25903.0,0.0,,,1 døgn
+NO1,96,ubal_mwh,sesongnaiv,28.01233,36.53805,25903.0,0.0,,,1 døgn
+NO1,96,ubal_mwh,klimatologi,23.34724,30.53143,25903.0,0.16654,,,1 døgn
+NO1,96,ubal_mwh,nullmodell,24.38745,31.7873,25903.0,0.1294,,,1 døgn
+NO1,96,ubal_mwh,ARX (ridge),22.77553,29.85278,25903.0,0.18695,,,1 døgn
+NO1,96,ubal_mwh,GBM,23.26712,30.47958,25903.0,0.1694,,,1 døgn
+NO1,96,retning,persistens,,,27300.0,,0.56451,0.43549,1 døgn
+NO1,96,retning,sesongnaiv,,,27300.0,,0.56451,0.43549,1 døgn
+NO1,96,retning,klimatologi,,,27300.0,,0.56201,0.25177,1 døgn
+NO1,96,retning,nullmodell,,,27300.0,,0.51238,0.48762,1 døgn
+NO1,96,retning,Logistisk,,,27300.0,,0.57392,0.2419,1 døgn
+NO1,96,retning,GBM,,,27300.0,,0.57432,0.24521,1 døgn
+NO2,1,spread,persistens,6.44004,66.74466,27300.0,0.0,,,15 min
+NO2,1,spread,sesongnaiv,16.10376,95.61715,27300.0,-1.50057,,,15 min
+NO2,1,spread,klimatologi,12.33459,68.85617,27300.0,-0.9153,,,15 min
+NO2,1,spread,nullmodell,11.24609,67.80504,27300.0,-0.74628,,,15 min
+NO2,1,spread,ARX (ridge),9.55816,63.06674,27300.0,-0.48418,,,15 min
+NO2,1,spread,GBM,6.12735,66.16542,27300.0,0.04855,,,15 min
+NO2,1,ubal_mwh,persistens,10.84024,15.8866,25903.0,0.0,,,15 min
+NO2,1,ubal_mwh,sesongnaiv,36.21666,47.2114,25903.0,-2.34095,,,15 min
+NO2,1,ubal_mwh,klimatologi,27.75137,36.22669,25903.0,-1.56003,,,15 min
+NO2,1,ubal_mwh,nullmodell,30.01163,39.13296,25903.0,-1.76854,,,15 min
+NO2,1,ubal_mwh,ARX (ridge),10.61348,15.25452,25903.0,0.02092,,,15 min
+NO2,1,ubal_mwh,GBM,10.38104,14.93977,25903.0,0.04236,,,15 min
+NO2,1,retning,persistens,,,27300.0,,0.86179,0.13821,15 min
+NO2,1,retning,sesongnaiv,,,27300.0,,0.58125,0.41875,15 min
+NO2,1,retning,klimatologi,,,27300.0,,0.5785,0.24658,15 min
+NO2,1,retning,nullmodell,,,27300.0,,0.58927,0.41073,15 min
+NO2,1,retning,Logistisk,,,27300.0,,0.86136,0.10676,15 min
+NO2,1,retning,GBM,,,27300.0,,0.8626,0.1046,15 min
+NO2,4,spread,persistens,10.76911,93.90323,27300.0,0.0,,,1 time
+NO2,4,spread,sesongnaiv,16.10376,95.61715,27300.0,-0.49537,,,1 time
+NO2,4,spread,klimatologi,12.33459,68.85617,27300.0,-0.14537,,,1 time
+NO2,4,spread,nullmodell,11.24609,67.80504,27300.0,-0.04429,,,1 time
+NO2,4,spread,ARX (ridge),10.67964,67.75542,27300.0,0.00831,,,1 time
+NO2,4,spread,GBM,8.80608,67.06445,27300.0,0.18228,,,1 time
+NO2,4,ubal_mwh,persistens,19.12101,26.38212,25903.0,0.0,,,1 time
+NO2,4,ubal_mwh,sesongnaiv,36.21666,47.2114,25903.0,-0.89408,,,1 time
+NO2,4,ubal_mwh,klimatologi,27.75137,36.22669,25903.0,-0.45135,,,1 time
+NO2,4,ubal_mwh,nullmodell,30.01108,39.13236,25903.0,-0.56953,,,1 time
+NO2,4,ubal_mwh,ARX (ridge),17.97593,24.46962,25903.0,0.05989,,,1 time
+NO2,4,ubal_mwh,GBM,17.86344,24.23779,25903.0,0.06577,,,1 time
+NO2,4,retning,persistens,,,27300.0,,0.76352,0.23648,1 time
+NO2,4,retning,sesongnaiv,,,27300.0,,0.58125,0.41875,1 time
+NO2,4,retning,klimatologi,,,27300.0,,0.5785,0.24658,1 time
+NO2,4,retning,nullmodell,,,27300.0,,0.58927,0.41073,1 time
+NO2,4,retning,Logistisk,,,27300.0,,0.76842,0.16194,1 time
+NO2,4,retning,GBM,,,27300.0,,0.76802,0.16283,1 time
+NO2,16,spread,persistens,14.64295,94.85547,27300.0,0.0,,,4 timer
+NO2,16,spread,sesongnaiv,16.10376,95.61715,27300.0,-0.09976,,,4 timer
+NO2,16,spread,klimatologi,12.33459,68.85617,27300.0,0.15764,,,4 timer
+NO2,16,spread,nullmodell,11.24609,67.80504,27300.0,0.23198,,,4 timer
+NO2,16,spread,ARX (ridge),11.50276,67.91654,27300.0,0.21445,,,4 timer
+NO2,16,spread,GBM,10.48113,67.56137,27300.0,0.28422,,,4 timer
+NO2,16,ubal_mwh,persistens,31.4552,41.62999,25903.0,0.0,,,4 timer
+NO2,16,ubal_mwh,sesongnaiv,36.21666,47.2114,25903.0,-0.15137,,,4 timer
+NO2,16,ubal_mwh,klimatologi,27.75137,36.22669,25903.0,0.11775,,,4 timer
+NO2,16,ubal_mwh,nullmodell,30.01272,39.13405,25903.0,0.04586,,,4 timer
+NO2,16,ubal_mwh,ARX (ridge),25.44158,33.54563,25903.0,0.19118,,,4 timer
+NO2,16,ubal_mwh,GBM,25.601,33.66359,25903.0,0.18611,,,4 timer
+NO2,16,retning,persistens,,,27300.0,,0.64641,0.35359,4 timer
+NO2,16,retning,sesongnaiv,,,27300.0,,0.58125,0.41875,4 timer
+NO2,16,retning,klimatologi,,,27300.0,,0.5785,0.24658,4 timer
+NO2,16,retning,nullmodell,,,27300.0,,0.58927,0.41073,4 timer
+NO2,16,retning,Logistisk,,,27300.0,,0.66685,0.21288,4 timer
+NO2,16,retning,GBM,,,27300.0,,0.65557,0.21922,4 timer
+NO2,96,spread,persistens,16.10376,95.61715,27300.0,0.0,,,1 døgn
+NO2,96,spread,sesongnaiv,16.10376,95.61715,27300.0,0.0,,,1 døgn
+NO2,96,spread,klimatologi,12.33459,68.85617,27300.0,0.23406,,,1 døgn
+NO2,96,spread,nullmodell,11.24609,67.80504,27300.0,0.30165,,,1 døgn
+NO2,96,spread,ARX (ridge),11.5448,67.91563,27300.0,0.2831,,,1 døgn
+NO2,96,spread,GBM,11.11116,67.77912,27300.0,0.31003,,,1 døgn
+NO2,96,ubal_mwh,persistens,36.21666,47.2114,25903.0,0.0,,,1 døgn
+NO2,96,ubal_mwh,sesongnaiv,36.21666,47.2114,25903.0,0.0,,,1 døgn
+NO2,96,ubal_mwh,klimatologi,27.75137,36.22669,25903.0,0.23374,,,1 døgn
+NO2,96,ubal_mwh,nullmodell,30.01527,39.13726,25903.0,0.17123,,,1 døgn
+NO2,96,ubal_mwh,ARX (ridge),28.01181,36.84513,25903.0,0.22655,,,1 døgn
+NO2,96,ubal_mwh,GBM,28.47952,37.38778,25903.0,0.21363,,,1 døgn
+NO2,96,retning,persistens,,,27300.0,,0.58125,0.41875,1 døgn
+NO2,96,retning,sesongnaiv,,,27300.0,,0.58125,0.41875,1 døgn
+NO2,96,retning,klimatologi,,,27300.0,,0.5785,0.24658,1 døgn
+NO2,96,retning,nullmodell,,,27300.0,,0.58927,0.41073,1 døgn
+NO2,96,retning,Logistisk,,,27300.0,,0.60374,0.23559,1 døgn
+NO2,96,retning,GBM,,,27300.0,,0.60216,0.23764,1 døgn
+NO3,1,spread,persistens,8.29043,111.80754,27300.0,0.0,,,15 min
+NO3,1,spread,sesongnaiv,23.80159,176.38843,27300.0,-1.87097,,,15 min
+NO3,1,spread,klimatologi,20.65283,129.03535,27300.0,-1.49117,,,15 min
+NO3,1,spread,nullmodell,16.93979,124.95658,27300.0,-1.0433,,,15 min
+NO3,1,spread,ARX (ridge),12.77723,123.16343,27300.0,-0.5412,,,15 min
+NO3,1,spread,GBM,8.3549,122.81601,27300.0,-0.00778,,,15 min
+NO3,1,ubal_mwh,persistens,7.54431,10.93146,25903.0,0.0,,,15 min
+NO3,1,ubal_mwh,sesongnaiv,35.3706,46.32942,25903.0,-3.68838,,,15 min
+NO3,1,ubal_mwh,klimatologi,27.20642,35.82291,25903.0,-2.60622,,,15 min
+NO3,1,ubal_mwh,nullmodell,26.94382,35.47545,25903.0,-2.57141,,,15 min
+NO3,1,ubal_mwh,ARX (ridge),7.62994,10.88818,25903.0,-0.01135,,,15 min
+NO3,1,ubal_mwh,GBM,7.64994,11.03195,25903.0,-0.014,,,15 min
+NO3,1,retning,persistens,,,27300.0,,0.88223,0.11777,15 min
+NO3,1,retning,sesongnaiv,,,27300.0,,0.60403,0.39597,15 min
+NO3,1,retning,klimatologi,,,27300.0,,0.64615,0.22512,15 min
+NO3,1,retning,nullmodell,,,27300.0,,0.66626,0.33374,15 min
+NO3,1,retning,Logistisk,,,27300.0,,0.88212,0.08955,15 min
+NO3,1,retning,GBM,,,27300.0,,0.88242,0.08832,15 min
+NO3,4,spread,persistens,14.80104,173.55753,27300.0,0.0,,,1 time
+NO3,4,spread,sesongnaiv,23.80159,176.38843,27300.0,-0.6081,,,1 time
+NO3,4,spread,klimatologi,20.65283,129.03535,27300.0,-0.39536,,,1 time
+NO3,4,spread,nullmodell,16.93979,124.95658,27300.0,-0.1445,,,1 time
+NO3,4,spread,ARX (ridge),13.63596,123.95174,27300.0,0.07872,,,1 time
+NO3,4,spread,GBM,11.66146,123.76296,27300.0,0.21212,,,1 time
+NO3,4,ubal_mwh,persistens,15.38531,21.16896,25903.0,0.0,,,1 time
+NO3,4,ubal_mwh,sesongnaiv,35.3706,46.32942,25903.0,-1.29898,,,1 time
+NO3,4,ubal_mwh,klimatologi,27.20642,35.82291,25903.0,-0.76834,,,1 time
+NO3,4,ubal_mwh,nullmodell,26.94418,35.47573,25903.0,-0.75129,,,1 time
+NO3,4,ubal_mwh,ARX (ridge),14.92366,20.30649,25903.0,0.03001,,,1 time
+NO3,4,ubal_mwh,GBM,15.13823,20.68394,25903.0,0.01606,,,1 time
+NO3,4,retning,persistens,,,27300.0,,0.79788,0.20212,1 time
+NO3,4,retning,sesongnaiv,,,27300.0,,0.60403,0.39597,1 time
+NO3,4,retning,klimatologi,,,27300.0,,0.64615,0.22512,1 time
+NO3,4,retning,nullmodell,,,27300.0,,0.66626,0.33374,1 time
+NO3,4,retning,Logistisk,,,27300.0,,0.80736,0.13703,1 time
+NO3,4,retning,GBM,,,27300.0,,0.80366,0.13865,1 time
+NO3,16,spread,persistens,20.66511,175.55897,27300.0,0.0,,,4 timer
+NO3,16,spread,sesongnaiv,23.80159,176.38843,27300.0,-0.15178,,,4 timer
+NO3,16,spread,klimatologi,20.65283,129.03535,27300.0,0.00059,,,4 timer
+NO3,16,spread,nullmodell,16.93979,124.95658,27300.0,0.18027,,,4 timer
+NO3,16,spread,ARX (ridge),15.53178,124.64214,27300.0,0.24841,,,4 timer
+NO3,16,spread,GBM,14.99296,124.53607,27300.0,0.27448,,,4 timer
+NO3,16,ubal_mwh,persistens,27.89768,37.38403,25903.0,0.0,,,4 timer
+NO3,16,ubal_mwh,sesongnaiv,35.3706,46.32942,25903.0,-0.26787,,,4 timer
+NO3,16,ubal_mwh,klimatologi,27.20642,35.82291,25903.0,0.02478,,,4 timer
+NO3,16,ubal_mwh,nullmodell,26.9438,35.4754,25903.0,0.03419,,,4 timer
+NO3,16,ubal_mwh,ARX (ridge),23.98987,31.83699,25903.0,0.14008,,,4 timer
+NO3,16,ubal_mwh,GBM,24.73184,32.88748,25903.0,0.11348,,,4 timer
+NO3,16,retning,persistens,,,27300.0,,0.6807,0.3193,4 timer
+NO3,16,retning,sesongnaiv,,,27300.0,,0.60403,0.39597,4 timer
+NO3,16,retning,klimatologi,,,27300.0,,0.64615,0.22512,4 timer
+NO3,16,retning,nullmodell,,,27300.0,,0.66626,0.33374,4 timer
+NO3,16,retning,Logistisk,,,27300.0,,0.70608,0.19591,4 timer
+NO3,16,retning,GBM,,,27300.0,,0.68908,0.20499,4 timer
+NO3,96,spread,persistens,23.80159,176.38843,27300.0,0.0,,,1 døgn
+NO3,96,spread,sesongnaiv,23.80159,176.38843,27300.0,0.0,,,1 døgn
+NO3,96,spread,klimatologi,20.65283,129.03535,27300.0,0.13229,,,1 døgn
+NO3,96,spread,nullmodell,16.93979,124.95658,27300.0,0.28829,,,1 døgn
+NO3,96,spread,ARX (ridge),16.45955,124.87542,27300.0,0.30847,,,1 døgn
+NO3,96,spread,GBM,16.40512,124.87407,27300.0,0.31076,,,1 døgn
+NO3,96,ubal_mwh,persistens,35.3706,46.32942,25903.0,0.0,,,1 døgn
+NO3,96,ubal_mwh,sesongnaiv,35.3706,46.32942,25903.0,0.0,,,1 døgn
+NO3,96,ubal_mwh,klimatologi,27.20642,35.82291,25903.0,0.23082,,,1 døgn
+NO3,96,ubal_mwh,nullmodell,26.94479,35.47618,25903.0,0.23822,,,1 døgn
+NO3,96,ubal_mwh,ARX (ridge),26.5943,35.13795,25903.0,0.24812,,,1 døgn
+NO3,96,ubal_mwh,GBM,27.34704,35.94882,25903.0,0.22684,,,1 døgn
+NO3,96,retning,persistens,,,27300.0,,0.60403,0.39597,1 døgn
+NO3,96,retning,sesongnaiv,,,27300.0,,0.60403,0.39597,1 døgn
+NO3,96,retning,klimatologi,,,27300.0,,0.64615,0.22512,1 døgn
+NO3,96,retning,nullmodell,,,27300.0,,0.66626,0.33374,1 døgn
+NO3,96,retning,Logistisk,,,27300.0,,0.66051,0.21996,1 døgn
+NO3,96,retning,GBM,,,27300.0,,0.64667,0.22551,1 døgn
+NO4,1,spread,persistens,11.48944,165.79307,27300.0,0.0,,,15 min
+NO4,1,spread,sesongnaiv,28.21729,228.08702,27300.0,-1.45593,,,15 min
+NO4,1,spread,klimatologi,22.13348,164.6484,27300.0,-0.92642,,,15 min
+NO4,1,spread,nullmodell,17.74128,161.6583,27300.0,-0.54414,,,15 min
+NO4,1,spread,ARX (ridge),15.06798,159.69706,27300.0,-0.31146,,,15 min
+NO4,1,spread,GBM,10.77008,159.0684,27300.0,0.06261,,,15 min
+NO4,1,ubal_mwh,persistens,8.28096,11.36712,25903.0,0.0,,,15 min
+NO4,1,ubal_mwh,sesongnaiv,24.9233,31.83055,25903.0,-2.00971,,,15 min
+NO4,1,ubal_mwh,klimatologi,19.0648,24.53352,25903.0,-1.30225,,,15 min
+NO4,1,ubal_mwh,nullmodell,18.75092,24.28461,25903.0,-1.26434,,,15 min
+NO4,1,ubal_mwh,ARX (ridge),7.94157,10.80154,25903.0,0.04098,,,15 min
+NO4,1,ubal_mwh,GBM,7.93227,10.79586,25903.0,0.04211,,,15 min
+NO4,1,retning,persistens,,,27300.0,,0.8596,0.1404,15 min
+NO4,1,retning,sesongnaiv,,,27300.0,,0.57458,0.42542,15 min
+NO4,1,retning,klimatologi,,,27300.0,,0.61538,0.23585,15 min
+NO4,1,retning,nullmodell,,,27300.0,,0.64733,0.35267,15 min
+NO4,1,retning,Logistisk,,,27300.0,,0.86018,0.10545,15 min
+NO4,1,retning,GBM,,,27300.0,,0.86117,0.10325,15 min
+NO4,4,spread,persistens,19.06057,223.71645,27300.0,0.0,,,1 time
+NO4,4,spread,sesongnaiv,28.21729,228.08702,27300.0,-0.4804,,,1 time
+NO4,4,spread,klimatologi,22.13348,164.6484,27300.0,-0.16122,,,1 time
+NO4,4,spread,nullmodell,17.74128,161.6583,27300.0,0.06922,,,1 time
+NO4,4,spread,ARX (ridge),15.9183,161.2229,27300.0,0.16486,,,1 time
+NO4,4,spread,GBM,14.20804,160.54212,27300.0,0.25458,,,1 time
+NO4,4,ubal_mwh,persistens,13.44451,17.99444,25903.0,0.0,,,1 time
+NO4,4,ubal_mwh,sesongnaiv,24.9233,31.83055,25903.0,-0.85379,,,1 time
+NO4,4,ubal_mwh,klimatologi,19.0648,24.53352,25903.0,-0.41804,,,1 time
+NO4,4,ubal_mwh,nullmodell,18.7509,24.28448,25903.0,-0.39469,,,1 time
+NO4,4,ubal_mwh,ARX (ridge),12.48998,16.52598,25903.0,0.071,,,1 time
+NO4,4,ubal_mwh,GBM,12.58568,16.67775,25903.0,0.06388,,,1 time
+NO4,4,retning,persistens,,,27300.0,,0.76861,0.23139,1 time
+NO4,4,retning,sesongnaiv,,,27300.0,,0.57458,0.42542,1 time
+NO4,4,retning,klimatologi,,,27300.0,,0.61538,0.23585,1 time
+NO4,4,retning,nullmodell,,,27300.0,,0.64733,0.35267,1 time
+NO4,4,retning,Logistisk,,,27300.0,,0.77905,0.15504,1 time
+NO4,4,retning,GBM,,,27300.0,,0.77363,0.15716,1 time
+NO4,16,spread,persistens,24.81101,227.39854,27300.0,0.0,,,4 timer
+NO4,16,spread,sesongnaiv,28.21729,228.08702,27300.0,-0.13729,,,4 timer
+NO4,16,spread,klimatologi,22.13348,164.6484,27300.0,0.10792,,,4 timer
+NO4,16,spread,nullmodell,17.74128,161.6583,27300.0,0.28494,,,4 timer
+NO4,16,spread,ARX (ridge),17.10565,161.6426,27300.0,0.31056,,,4 timer
+NO4,16,spread,GBM,16.79714,161.54714,27300.0,0.323,,,4 timer
+NO4,16,ubal_mwh,persistens,20.13935,26.24288,25903.0,0.0,,,4 timer
+NO4,16,ubal_mwh,sesongnaiv,24.9233,31.83055,25903.0,-0.23754,,,4 timer
+NO4,16,ubal_mwh,klimatologi,19.0648,24.53352,25903.0,0.05336,,,4 timer
+NO4,16,ubal_mwh,nullmodell,18.75154,24.28527,25903.0,0.06891,,,4 timer
+NO4,16,ubal_mwh,ARX (ridge),16.84628,21.9584,25903.0,0.16351,,,4 timer
+NO4,16,ubal_mwh,GBM,16.97707,22.16802,25903.0,0.15702,,,4 timer
+NO4,16,retning,persistens,,,27300.0,,0.6511,0.3489,4 timer
+NO4,16,retning,sesongnaiv,,,27300.0,,0.57458,0.42542,4 timer
+NO4,16,retning,klimatologi,,,27300.0,,0.61538,0.23585,4 timer
+NO4,16,retning,nullmodell,,,27300.0,,0.64733,0.35267,4 timer
+NO4,16,retning,Logistisk,,,27300.0,,0.67538,0.20954,4 timer
+NO4,16,retning,GBM,,,27300.0,,0.66066,0.21454,4 timer
+NO4,96,spread,persistens,28.21729,228.08702,27300.0,0.0,,,1 døgn
+NO4,96,spread,sesongnaiv,28.21729,228.08702,27300.0,0.0,,,1 døgn
+NO4,96,spread,klimatologi,22.13348,164.6484,27300.0,0.21561,,,1 døgn
+NO4,96,spread,nullmodell,17.74128,161.6583,27300.0,0.37126,,,1 døgn
+NO4,96,spread,ARX (ridge),17.84364,161.60527,27300.0,0.36763,,,1 døgn
+NO4,96,spread,GBM,17.84551,161.59409,27300.0,0.36757,,,1 døgn
+NO4,96,ubal_mwh,persistens,24.9233,31.83055,25903.0,0.0,,,1 døgn
+NO4,96,ubal_mwh,sesongnaiv,24.9233,31.83055,25903.0,0.0,,,1 døgn
+NO4,96,ubal_mwh,klimatologi,19.0648,24.53352,25903.0,0.23506,,,1 døgn
+NO4,96,ubal_mwh,nullmodell,18.75295,24.28668,25903.0,0.24757,,,1 døgn
+NO4,96,ubal_mwh,ARX (ridge),18.56333,24.06853,25903.0,0.25518,,,1 døgn
+NO4,96,ubal_mwh,GBM,18.82192,24.38159,25903.0,0.24481,,,1 døgn
+NO4,96,retning,persistens,,,27300.0,,0.57458,0.42542,1 døgn
+NO4,96,retning,sesongnaiv,,,27300.0,,0.57458,0.42542,1 døgn
+NO4,96,retning,klimatologi,,,27300.0,,0.61538,0.23585,1 døgn
+NO4,96,retning,nullmodell,,,27300.0,,0.64733,0.35267,1 døgn
+NO4,96,retning,Logistisk,,,27300.0,,0.64934,0.22767,1 døgn
+NO4,96,retning,GBM,,,27300.0,,0.63396,0.23216,1 døgn
+NO5,1,spread,persistens,4.81556,87.51459,27300.0,0.0,,,15 min
+NO5,1,spread,sesongnaiv,11.21208,108.88089,27300.0,-1.3283,,,15 min
+NO5,1,spread,klimatologi,9.12507,78.54756,27300.0,-0.89491,,,15 min
+NO5,1,spread,nullmodell,7.8749,77.24488,27300.0,-0.6353,,,15 min
+NO5,1,spread,ARX (ridge),6.80652,76.13476,27300.0,-0.41344,,,15 min
+NO5,1,spread,GBM,4.43586,76.31237,27300.0,0.07885,,,15 min
+NO5,1,ubal_mwh,persistens,7.37916,11.72737,25903.0,0.0,,,15 min
+NO5,1,ubal_mwh,sesongnaiv,22.60594,30.32847,25903.0,-2.06348,,,15 min
+NO5,1,ubal_mwh,klimatologi,17.88459,23.94918,25903.0,-1.42366,,,15 min
+NO5,1,ubal_mwh,nullmodell,18.1505,24.27629,25903.0,-1.4597,,,15 min
+NO5,1,ubal_mwh,ARX (ridge),7.27846,11.14414,25903.0,0.01365,,,15 min
+NO5,1,ubal_mwh,GBM,7.13108,11.00338,25903.0,0.03362,,,15 min
+NO5,1,retning,persistens,,,27300.0,,0.86648,0.13352,15 min
+NO5,1,retning,sesongnaiv,,,27300.0,,0.59238,0.40762,15 min
+NO5,1,retning,klimatologi,,,27300.0,,0.61352,0.23896,15 min
+NO5,1,retning,nullmodell,,,27300.0,,0.51168,0.48832,15 min
+NO5,1,retning,Logistisk,,,27300.0,,0.86454,0.10499,15 min
+NO5,1,retning,GBM,,,27300.0,,0.86766,0.10208,15 min
+NO5,4,spread,persistens,7.90473,108.14038,27300.0,0.0,,,1 time
+NO5,4,spread,sesongnaiv,11.21208,108.88089,27300.0,-0.4184,,,1 time
+NO5,4,spread,klimatologi,9.12507,78.54756,27300.0,-0.15438,,,1 time
+NO5,4,spread,nullmodell,7.8749,77.24488,27300.0,0.00377,,,1 time
+NO5,4,spread,ARX (ridge),7.27936,77.00704,27300.0,0.07911,,,1 time
+NO5,4,spread,GBM,6.14743,76.87244,27300.0,0.22231,,,1 time
+NO5,4,ubal_mwh,persistens,12.34433,18.38156,25903.0,0.0,,,1 time
+NO5,4,ubal_mwh,sesongnaiv,22.60594,30.32847,25903.0,-0.83128,,,1 time
+NO5,4,ubal_mwh,klimatologi,17.88459,23.94918,25903.0,-0.44881,,,1 time
+NO5,4,ubal_mwh,nullmodell,18.1504,24.27615,25903.0,-0.47034,,,1 time
+NO5,4,ubal_mwh,ARX (ridge),11.49122,16.5995,25903.0,0.06911,,,1 time
+NO5,4,ubal_mwh,GBM,11.40992,16.4315,25903.0,0.0757,,,1 time
+NO5,4,retning,persistens,,,27300.0,,0.76945,0.23055,1 time
+NO5,4,retning,sesongnaiv,,,27300.0,,0.59238,0.40762,1 time
+NO5,4,retning,klimatologi,,,27300.0,,0.61352,0.23896,1 time
+NO5,4,retning,nullmodell,,,27300.0,,0.51168,0.48832,1 time
+NO5,4,retning,Logistisk,,,27300.0,,0.77077,0.16218,1 time
+NO5,4,retning,GBM,,,27300.0,,0.76696,0.16324,1 time
+NO5,16,spread,persistens,10.63338,108.676,27300.0,0.0,,,4 timer
+NO5,16,spread,sesongnaiv,11.21208,108.88089,27300.0,-0.05442,,,4 timer
+NO5,16,spread,klimatologi,9.12507,78.54756,27300.0,0.14185,,,4 timer
+NO5,16,spread,nullmodell,7.8749,77.24488,27300.0,0.25942,,,4 timer
+NO5,16,spread,ARX (ridge),7.86265,77.21789,27300.0,0.26057,,,4 timer
+NO5,16,spread,GBM,7.34516,77.10882,27300.0,0.30924,,,4 timer
+NO5,16,ubal_mwh,persistens,18.9247,25.97117,25903.0,0.0,,,4 timer
+NO5,16,ubal_mwh,sesongnaiv,22.60594,30.32847,25903.0,-0.19452,,,4 timer
+NO5,16,ubal_mwh,klimatologi,17.88459,23.94918,25903.0,0.05496,,,4 timer
+NO5,16,ubal_mwh,nullmodell,18.15021,24.27582,25903.0,0.04092,,,4 timer
+NO5,16,ubal_mwh,ARX (ridge),15.50517,21.14888,25903.0,0.18069,,,4 timer
+NO5,16,ubal_mwh,GBM,15.26686,20.96468,25903.0,0.19328,,,4 timer
+NO5,16,retning,persistens,,,27300.0,,0.63495,0.36505,4 timer
+NO5,16,retning,sesongnaiv,,,27300.0,,0.59238,0.40762,4 timer
+NO5,16,retning,klimatologi,,,27300.0,,0.61352,0.23896,4 timer
+NO5,16,retning,nullmodell,,,27300.0,,0.51168,0.48832,4 timer
+NO5,16,retning,Logistisk,,,27300.0,,0.65949,0.21437,4 timer
+NO5,16,retning,GBM,,,27300.0,,0.65341,0.21815,4 timer
+NO5,96,spread,persistens,11.21208,108.88089,27300.0,0.0,,,1 døgn
+NO5,96,spread,sesongnaiv,11.21208,108.88089,27300.0,0.0,,,1 døgn
+NO5,96,spread,klimatologi,9.12507,78.54756,27300.0,0.18614,,,1 døgn
+NO5,96,spread,nullmodell,7.8749,77.24488,27300.0,0.29764,,,1 døgn
+NO5,96,spread,ARX (ridge),8.16532,77.22021,27300.0,0.27174,,,1 døgn
+NO5,96,spread,GBM,7.76869,77.18343,27300.0,0.30711,,,1 døgn
+NO5,96,ubal_mwh,persistens,22.60594,30.32847,25903.0,0.0,,,1 døgn
+NO5,96,ubal_mwh,sesongnaiv,22.60594,30.32847,25903.0,0.0,,,1 døgn
+NO5,96,ubal_mwh,klimatologi,17.88459,23.94918,25903.0,0.20885,,,1 døgn
+NO5,96,ubal_mwh,nullmodell,18.15262,24.27766,25903.0,0.197,,,1 døgn
+NO5,96,ubal_mwh,ARX (ridge),17.4624,23.61756,25903.0,0.22753,,,1 døgn
+NO5,96,ubal_mwh,GBM,17.73064,23.8624,25903.0,0.21566,,,1 døgn
+NO5,96,retning,persistens,,,27300.0,,0.59238,0.40762,1 døgn
+NO5,96,retning,sesongnaiv,,,27300.0,,0.59238,0.40762,1 døgn
+NO5,96,retning,klimatologi,,,27300.0,,0.61352,0.23896,1 døgn
+NO5,96,retning,nullmodell,,,27300.0,,0.51168,0.48832,1 døgn
+NO5,96,retning,Logistisk,,,27300.0,,0.60381,0.23623,1 døgn
+NO5,96,retning,GBM,,,27300.0,,0.60571,0.23715,1 døgn

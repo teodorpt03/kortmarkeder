@@ -1,0 +1,3495 @@
+{
+ "oppsett": {
+  "trening_fra": "2025-03-04",
+  "test_fra": "2026-01-01",
+  "test_til": "2026-10-12 10:00:00+00:00",
+  "horisonter_mtu": [
+   1,
+   4,
+   16,
+   96
+  ]
+ },
+ "resultater": [
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 5.800556776556777,
+   "RMSE": 63.990981753183505,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 15.226574725274725,
+   "RMSE": 92.06745168595172,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.6250195130946121
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 11.972469963369964,
+   "RMSE": 66.65104622729325,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.0640208215454874
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 10.22757326007326,
+   "RMSE": 65.49594301047586,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.7632054394172088
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 9.297482734177416,
+   "RMSE": 60.762229577501074,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.6028603963939512
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 5.673279448834454,
+   "RMSE": 63.76762655839322,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.02194226048035952
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 6.087726845886577,
+   "RMSE": 8.725545552509038,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 28.012332601474732,
+   "RMSE": 36.53804767259292,
+   "n": 25903.0,
+   "skill_vs_persistens": -3.601443742569103
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 23.34723964924085,
+   "RMSE": 30.531427268539947,
+   "n": 25903.0,
+   "skill_vs_persistens": -2.8351325938706293
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 24.376959638808817,
+   "RMSE": 31.773449932618888,
+   "n": 25903.0,
+   "skill_vs_persistens": -3.004279471783481
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 6.540015864948241,
+   "RMSE": 9.114982284444501,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.07429522225808682
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 5.932085825044933,
+   "RMSE": 8.436448212145553,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.025566360775009067
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.8522710622710623,
+   "Brier": 0.14772893772893772,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5645054945054945,
+   "Brier": 0.43549450549450547,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5620146520146521,
+   "Brier": 0.25177141735815206,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.492967032967033,
+   "Brier": 0.5070329670329671,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.8496703296703296,
+   "Brier": 0.11521925022676725,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 1,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.8527838827838827,
+   "Brier": 0.11243693140735296,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 9.875712087912088,
+   "RMSE": 90.28582045766812,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 15.226574725274725,
+   "RMSE": 92.06745168595172,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.5418204368181323
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 11.972469963369964,
+   "RMSE": 66.65104622729325,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.2123146013971302
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 10.22757326007326,
+   "RMSE": 65.49594301047586,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.03562894189593191
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 10.401014390923462,
+   "RMSE": 65.31657535334357,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.05319133428913414
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 8.221116896662384,
+   "RMSE": 64.60619962333128,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.1675418619458272
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 11.252084644404125,
+   "RMSE": 15.086649980276473,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 28.012332601474732,
+   "RMSE": 36.53804767259292,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.489523807075678
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 23.34723964924085,
+   "RMSE": 30.531427268539947,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.074925703731875
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 24.376966562725258,
+   "RMSE": 31.773359927427293,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.1664400271685111
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 10.909558689691378,
+   "RMSE": 14.554804850188901,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.030441110739696686
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 10.822281976374345,
+   "RMSE": 14.37689183477157,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.038197603520831014
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.7484981684981685,
+   "Brier": 0.2515018315018315,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5645054945054945,
+   "Brier": 0.43549450549450547,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5620146520146521,
+   "Brier": 0.25177141735815206,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.492967032967033,
+   "Brier": 0.5070329670329671,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.7508424908424909,
+   "Brier": 0.17166876908619033,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 4,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.74992673992674,
+   "Brier": 0.17115104085907434,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 13.834333333333335,
+   "RMSE": 91.4142712171018,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 15.226574725274725,
+   "RMSE": 92.06745168595172,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.10063668110315316
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 11.972469963369964,
+   "RMSE": 66.65104622729325,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.1345828038910467
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 10.22757326007326,
+   "RMSE": 65.49594301047586,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2607107972864666
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 11.314871325045234,
+   "RMSE": 65.49908897359204,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.18211661867489826
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 9.803670533382272,
+   "RMSE": 65.14453236607797,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.29135215285288263
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 21.144167697370964,
+   "RMSE": 27.190692557639835,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 28.012332601474732,
+   "RMSE": 36.53804767259292,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.3248255028244855
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 23.34723964924085,
+   "RMSE": 30.531427268539947,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.10419289060707815
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 24.37961891938436,
+   "RMSE": 31.776628409749943,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.1530186133746796
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 18.362957821000407,
+   "RMSE": 23.753422501685446,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.13153555704707964
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 18.72786098061804,
+   "RMSE": 24.265083413226105,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.11427769356243633
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.6197435897435898,
+   "Brier": 0.38025641025641027,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5645054945054945,
+   "Brier": 0.43549450549450547,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5620146520146521,
+   "Brier": 0.25177141735815206,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.492967032967033,
+   "Brier": 0.5070329670329671,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6376923076923077,
+   "Brier": 0.2201148144984965,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 16,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.636080586080586,
+   "Brier": 0.22318604925711052,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 15.226574725274725,
+   "RMSE": 92.06745168595172,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 15.226574725274725,
+   "RMSE": 92.06745168595172,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 11.972469963369964,
+   "RMSE": 66.65104622729325,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.21371219861438995
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 10.22757326007326,
+   "RMSE": 65.49594301047586,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.3283076828108674
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 10.748696796601305,
+   "RMSE": 65.51567317011695,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.29408307577150306
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 10.214131185635102,
+   "RMSE": 65.43143479652998,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.32919048637507575
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 28.012332601474732,
+   "RMSE": 36.53804767259292,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 28.012332601474732,
+   "RMSE": 36.53804767259292,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 23.34723964924085,
+   "RMSE": 30.531427268539947,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.16653711130033788
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 24.387450173636697,
+   "RMSE": 31.78729979392122,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.1294030911102062
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 22.775527451974526,
+   "RMSE": 29.852778408788282,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.18694641478105645
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 23.26711505922666,
+   "RMSE": 30.47957548757171,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.16939744396717094
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.5645054945054945,
+   "Brier": 0.43549450549450547,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5645054945054945,
+   "Brier": 0.43549450549450547,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5620146520146521,
+   "Brier": 0.25177141735815206,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5123809523809524,
+   "Brier": 0.4876190476190476,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.5739194139194139,
+   "Brier": 0.24189766114618538,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO1",
+   "h": 96,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.5743223443223443,
+   "Brier": 0.2452084498233819,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 6.440041025641025,
+   "RMSE": 66.7446600781844,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 16.10376446886447,
+   "RMSE": 95.61715096576306,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.5005686151295197
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 12.334594204604919,
+   "RMSE": 68.85617170872509,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.9152974578103972
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 11.246086446886446,
+   "RMSE": 67.80503594040138,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.7462755908091501
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 9.558161324468587,
+   "RMSE": 63.0667360344179,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.48417708620376265
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 6.127347186714229,
+   "RMSE": 66.16541525199003,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.048554634618289794
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 10.840239181677797,
+   "RMSE": 15.886600065209114,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 36.21665819796935,
+   "RMSE": 47.21139957254579,
+   "n": 25903.0,
+   "skill_vs_persistens": -2.340946411882023
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.751366013011452,
+   "RMSE": 36.22668824376281,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.5600326291616233
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 30.011628866751266,
+   "RMSE": 39.13295665410522,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.7685393618876053
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 10.61347738359478,
+   "RMSE": 15.254520402618567,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.020918523501426978
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 10.381037577535588,
+   "RMSE": 14.939768826009836,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.04236083691938752
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.8617948717948718,
+   "Brier": 0.1382051282051282,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5812454212454212,
+   "Brier": 0.4187545787545788,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5784981684981685,
+   "Brier": 0.246576726844584,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5892673992673992,
+   "Brier": 0.4107326007326007,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.8613553113553114,
+   "Brier": 0.106756869560013,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 1,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.8626007326007326,
+   "Brier": 0.10460310068267416,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 10.769114285714288,
+   "RMSE": 93.90323047191865,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 16.10376446886447,
+   "RMSE": 95.61715096576306,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.49536573218717095
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 12.334594204604919,
+   "RMSE": 68.85617170872509,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.14536756481146362
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 11.246086446886446,
+   "RMSE": 67.80503594040138,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.044290751172070264
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 10.679635928997714,
+   "RMSE": 67.75541830385534,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0083087944228869
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 8.806075752908217,
+   "RMSE": 67.064445396978,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.1822841211194247
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 19.121014862911633,
+   "RMSE": 26.382121897310185,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 36.21665819796935,
+   "RMSE": 47.21139957254579,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.894076149076038
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.751366013011452,
+   "RMSE": 36.22668824376281,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.4513542409738833
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 30.0110752395686,
+   "RMSE": 39.132358427621064,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.5695335971826496
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 17.975929045216983,
+   "RMSE": 24.46961638425977,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.059886246933248954
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 17.863435276644832,
+   "RMSE": 24.23778788399957,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.06576949996028103
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.7635164835164835,
+   "Brier": 0.23648351648351648,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5812454212454212,
+   "Brier": 0.4187545787545788,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5784981684981685,
+   "Brier": 0.246576726844584,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5892673992673992,
+   "Brier": 0.4107326007326007,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.7684249084249084,
+   "Brier": 0.1619442881432744,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 4,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.768021978021978,
+   "Brier": 0.16282855059849533,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 14.642952747252746,
+   "RMSE": 94.85547442774238,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 16.10376446886447,
+   "RMSE": 95.61715096576306,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.09976210036502331
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 12.334594204604919,
+   "RMSE": 68.85617170872509,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.15764296877082473
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 11.246086446886446,
+   "RMSE": 67.80503594040138,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.23197959858223316
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 11.50275574420723,
+   "RMSE": 67.91653544625285,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.21445107808837727
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 10.481125694443945,
+   "RMSE": 67.56137340895151,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2842204796153308
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 31.455204508628345,
+   "RMSE": 41.62998959699098,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 36.21665819796935,
+   "RMSE": 47.21139957254579,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.15137252367998166
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.751366013011452,
+   "RMSE": 36.22668824376281,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.11774962374194409
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 30.01272257971069,
+   "RMSE": 39.13405325623945,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.04585829122560536
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 25.441578061514292,
+   "RMSE": 33.54563085314589,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.19118065010400676
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 25.600998878354105,
+   "RMSE": 33.66359057574976,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.1861124644307557
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.6464102564102564,
+   "Brier": 0.3535897435897436,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5812454212454212,
+   "Brier": 0.4187545787545788,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5784981684981685,
+   "Brier": 0.246576726844584,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5892673992673992,
+   "Brier": 0.4107326007326007,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6668498168498168,
+   "Brier": 0.21287921146496086,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 16,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.6555677655677655,
+   "Brier": 0.21921854207075986,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 16.10376446886447,
+   "RMSE": 95.61715096576306,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 16.10376446886447,
+   "RMSE": 95.61715096576306,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 12.334594204604919,
+   "RMSE": 68.85617170872509,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.23405522799013756
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 11.246086446886446,
+   "RMSE": 67.80503594040138,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.3016486009448295
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 11.544798383448953,
+   "RMSE": 67.91562804146253,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2830994016479791
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 11.111164634225567,
+   "RMSE": 67.77912315623429,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.31002687876438795
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 36.21665819796935,
+   "RMSE": 47.21139957254579,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 36.21665819796935,
+   "RMSE": 47.21139957254579,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.751366013011452,
+   "RMSE": 36.22668824376281,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.23374028986011042
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 30.015268085252426,
+   "RMSE": 39.137261960682196,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.17123032386971127
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 28.011813498999448,
+   "RMSE": 36.84512647579763,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.22654891718943704
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 28.479524248615633,
+   "RMSE": 37.38778397889692,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.2136346734991561
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.5812454212454212,
+   "Brier": 0.4187545787545788,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5812454212454212,
+   "Brier": 0.4187545787545788,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.5784981684981685,
+   "Brier": 0.246576726844584,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5892673992673992,
+   "Brier": 0.4107326007326007,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6037362637362638,
+   "Brier": 0.2355917653038551,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO2",
+   "h": 96,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.6021611721611722,
+   "Brier": 0.23764174778552966,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 8.290425274725274,
+   "RMSE": 111.80753984747,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 23.801589010989005,
+   "RMSE": 176.388427251081,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.8709732278212634
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 20.652825954997386,
+   "RMSE": 129.03535284583305,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.491166046446486
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 16.939788644688644,
+   "RMSE": 124.95657503914238,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.0432954985231429
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 12.777233485772701,
+   "RMSE": 123.1634275551613,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.5412036249486742
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 8.354896622527455,
+   "RMSE": 122.81601278487094,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.007776603209817434
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 7.544310545380844,
+   "RMSE": 10.931460091116485,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 35.37060430490677,
+   "RMSE": 46.329419955924614,
+   "n": 25903.0,
+   "skill_vs_persistens": -3.68838127647902
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.206419542773588,
+   "RMSE": 35.822905698642856,
+   "n": 25903.0,
+   "skill_vs_persistens": -2.6062168145280373
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 26.94382243076865,
+   "RMSE": 35.475450106926225,
+   "n": 25903.0,
+   "skill_vs_persistens": -2.571409510344924
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 7.629942857838225,
+   "RMSE": 10.888177032977037,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.011350581599508969
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 7.649935653023157,
+   "RMSE": 11.031945398738745,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.014000630939958292
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.8822344322344322,
+   "Brier": 0.11776556776556776,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.604029304029304,
+   "Brier": 0.39597069597069595,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6461538461538462,
+   "Brier": 0.22512138371832247,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6662637362637363,
+   "Brier": 0.33373626373626375,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.8821245421245422,
+   "Brier": 0.08955359655792139,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 1,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.8824175824175824,
+   "Brier": 0.0883165632031823,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 14.801036263736265,
+   "RMSE": 173.55752567381893,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 23.801589010989005,
+   "RMSE": 176.388427251081,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.6081028778576012
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 20.652825954997386,
+   "RMSE": 129.03535284583305,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.3953635128641959
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 16.939788644688644,
+   "RMSE": 124.95657503914238,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.1445001784228106
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 13.635962810163818,
+   "RMSE": 123.9517350326416,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.07871566779597527
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 11.661458571711973,
+   "RMSE": 123.76296425529648,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.21211877574521665
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 15.385314046249468,
+   "RMSE": 21.168958234285032,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 35.37060430490677,
+   "RMSE": 46.329419955924614,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.2989848760044769
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.206419542773588,
+   "RMSE": 35.822905698642856,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.7683369647827107
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 26.944182134086198,
+   "RMSE": 35.47572649316757,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.751292307267168
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 14.923658919710856,
+   "RMSE": 20.306486458130028,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.030006220552329266
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 15.138232869022755,
+   "RMSE": 20.683936399271825,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0160595472074192
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.7978754578754579,
+   "Brier": 0.20212454212454212,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.604029304029304,
+   "Brier": 0.39597069597069595,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6461538461538462,
+   "Brier": 0.22512138371832247,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6662637362637363,
+   "Brier": 0.33373626373626375,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.8073626373626374,
+   "Brier": 0.13702701487614657,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 4,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.8036630036630037,
+   "Brier": 0.1386460923995001,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 20.66510989010989,
+   "RMSE": 175.55897469434294,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 23.801589010989005,
+   "RMSE": 176.388427251081,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.15177655176081117
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 20.652825954997386,
+   "RMSE": 129.03535284583305,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.000594428734123631
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 16.939788644688644,
+   "RMSE": 124.95657503914238,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.1802710590570895
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 15.531783323724905,
+   "RMSE": 124.64213913149166,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2484054812039369
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 14.992957958723624,
+   "RMSE": 124.53606854678095,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.27447964039624584
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 27.897678531289813,
+   "RMSE": 37.38403387973387,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 35.37060430490677,
+   "RMSE": 46.329419955924614,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.2678690904418941
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.206419542773588,
+   "RMSE": 35.822905698642856,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.024778369560066182
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 26.94379809908809,
+   "RMSE": 35.47539884159046,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.03419210781756832
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 23.989873313115492,
+   "RMSE": 31.836994436466348,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.1400763584608432
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 24.731844020101963,
+   "RMSE": 32.88748279988149,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.1134802133316245
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.6806959706959707,
+   "Brier": 0.3193040293040293,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.604029304029304,
+   "Brier": 0.39597069597069595,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6461538461538462,
+   "Brier": 0.22512138371832247,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6662637362637363,
+   "Brier": 0.33373626373626375,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.7060805860805861,
+   "Brier": 0.1959081966910344,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 16,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.689084249084249,
+   "Brier": 0.2049887438408168,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 23.801589010989005,
+   "RMSE": 176.388427251081,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 23.801589010989005,
+   "RMSE": 176.388427251081,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 20.652825954997386,
+   "RMSE": 129.03535284583305,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.13229213623249525
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 16.939788644688644,
+   "RMSE": 124.95657503914238,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.28829169191738935
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 16.45955138517149,
+   "RMSE": 124.87542362370405,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.3084683809315317
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 16.405121039073194,
+   "RMSE": 124.87406818361205,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.3107552175823606
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 35.37060430490677,
+   "RMSE": 46.329419955924614,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 35.37060430490677,
+   "RMSE": 46.329419955924614,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 27.206419542773588,
+   "RMSE": 35.822905698642856,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.23081835672795137
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 26.944793456312997,
+   "RMSE": 35.47618219009336,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.2382150662725575
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 26.594303417249545,
+   "RMSE": 35.137945153854055,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.24812414320101783
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 27.347036882758584,
+   "RMSE": 35.948818725537805,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.2268428142471719
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.604029304029304,
+   "Brier": 0.39597069597069595,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.604029304029304,
+   "Brier": 0.39597069597069595,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6461538461538462,
+   "Brier": 0.22512138371832247,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6662637362637363,
+   "Brier": 0.33373626373626375,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6605128205128206,
+   "Brier": 0.2199587594737066,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO3",
+   "h": 96,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.6466666666666666,
+   "Brier": 0.2255054255955154,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 11.489441758241759,
+   "RMSE": 165.79306780702402,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 28.217286080586078,
+   "RMSE": 228.08702196014653,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.4559318611232683
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 22.133477511773936,
+   "RMSE": 164.64840337715103,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.9264188789587497
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 17.741283882783883,
+   "RMSE": 161.65830352747412,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.5441380230730071
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 15.06798227924355,
+   "RMSE": 159.69705609966704,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.31146339363570785
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 10.770077476325296,
+   "RMSE": 159.06840258119556,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.06261089938511921
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 8.28095627815311,
+   "RMSE": 11.367122586267726,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 24.923299065899702,
+   "RMSE": 31.830553408800853,
+   "n": 25903.0,
+   "skill_vs_persistens": -2.0097126743263414
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 19.06479951597581,
+   "RMSE": 24.533521345824745,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.3022461266065042
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.75091998927949,
+   "RMSE": 24.28461032540472,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.264342348811614
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 7.941572161156801,
+   "RMSE": 10.801535833182356,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.04098368661741092
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 7.932270257135241,
+   "RMSE": 10.795858129658857,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.04210697524605633
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.8595970695970696,
+   "Brier": 0.1404029304029304,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5745787545787546,
+   "Brier": 0.42542124542124543,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6153846153846154,
+   "Brier": 0.23584664909920014,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6473260073260073,
+   "Brier": 0.3526739926739927,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.8601831501831502,
+   "Brier": 0.10545439277654443,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 1,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.8611721611721612,
+   "Brier": 0.1032529376297217,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 19.060567032967032,
+   "RMSE": 223.71645213617077,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 28.217286080586078,
+   "RMSE": 228.08702196014653,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.48040118805393583
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 22.133477511773936,
+   "RMSE": 164.64840337715103,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.16121820895947203
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 17.741283882783883,
+   "RMSE": 161.65830352747412,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.06921531494321898
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 15.918295498004566,
+   "RMSE": 161.22290224956194,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.16485719073979355
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 14.208037338059711,
+   "RMSE": 160.54212408218945,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2545847501028914
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 13.444505092383121,
+   "RMSE": 17.994444767307943,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 24.923299065899702,
+   "RMSE": 31.830553408800853,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.8537907416182839
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 19.06479951597581,
+   "RMSE": 24.533521345824745,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.41803654243671806
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.750901049605986,
+   "RMSE": 24.28448097922244,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.394688827945713
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 12.489980166734508,
+   "RMSE": 16.525980858632856,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.07099740147291789
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 12.58568045005323,
+   "RMSE": 16.677748576877736,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.06387923069153745
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.7686080586080586,
+   "Brier": 0.23139194139194139,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5745787545787546,
+   "Brier": 0.42542124542124543,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6153846153846154,
+   "Brier": 0.23584664909920014,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6473260073260073,
+   "Brier": 0.3526739926739927,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.7790476190476191,
+   "Brier": 0.15504182837999014,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 4,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.7736263736263737,
+   "Brier": 0.15716433992745094,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 24.811009890109887,
+   "RMSE": 227.39853739104407,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 28.217286080586078,
+   "RMSE": 228.08702196014653,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.13728889737108174
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 22.133477511773936,
+   "RMSE": 164.64840337715103,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.10791710576050606
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 17.741283882783883,
+   "RMSE": 161.65830352747412,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2849430973845254
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 17.1056494586938,
+   "RMSE": 161.64259823288162,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.3105621442070998
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 16.797142140896554,
+   "RMSE": 161.5471391090573,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.3229964352401392
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 20.13934645450334,
+   "RMSE": 26.242881868054198,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 24.923299065899702,
+   "RMSE": 31.830553408800853,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.23754259465190475
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 19.06479951597581,
+   "RMSE": 24.533521345824745,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.05335560123338812
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.751540515415815,
+   "RMSE": 24.28527351521325,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.06891017750862505
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 16.8462776575589,
+   "RMSE": 21.958400012118645,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.16351418375883198
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 16.977073167948127,
+   "RMSE": 22.168023960437072,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.15701965769838078
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.6510989010989011,
+   "Brier": 0.3489010989010989,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5745787545787546,
+   "Brier": 0.42542124542124543,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6153846153846154,
+   "Brier": 0.23584664909920014,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6473260073260073,
+   "Brier": 0.3526739926739927,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6753846153846154,
+   "Brier": 0.20954470794470037,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 16,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.6606593406593406,
+   "Brier": 0.21453910656435882,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 28.217286080586078,
+   "RMSE": 228.08702196014653,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 28.217286080586078,
+   "RMSE": 228.08702196014653,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 22.133477511773936,
+   "RMSE": 164.64840337715103,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.21560573016970241
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 17.741283882783883,
+   "RMSE": 161.65830352747412,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.37126186295463204
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 17.84363552991709,
+   "RMSE": 161.60527394165413,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.36763459536975873
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 17.845511340230647,
+   "RMSE": 161.59409337608312,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.36756811802292244
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 24.923299065899702,
+   "RMSE": 31.830553408800853,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 24.923299065899702,
+   "RMSE": 31.830553408800853,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 19.06479951597581,
+   "RMSE": 24.533521345824745,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.23506115841379716
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.752947392172768,
+   "RMSE": 24.286684098347777,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.24757363210271266
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 18.563326150611854,
+   "RMSE": 24.0685283171413,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.25518182398210776
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 18.821917560150812,
+   "RMSE": 24.381589476222928,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.24480633521333695
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.5745787545787546,
+   "Brier": 0.42542124542124543,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5745787545787546,
+   "Brier": 0.42542124542124543,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6153846153846154,
+   "Brier": 0.23584664909920014,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.6473260073260073,
+   "Brier": 0.3526739926739927,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6493406593406593,
+   "Brier": 0.22766849599750613,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO4",
+   "h": 96,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.633956043956044,
+   "Brier": 0.23216179964351932,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 4.815561904761904,
+   "RMSE": 87.51459113695346,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 11.212084981684981,
+   "RMSE": 108.88089407715337,
+   "n": 27300.0,
+   "skill_vs_persistens": -1.3283025332096399
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 9.125067713239142,
+   "RMSE": 78.54756317359612,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.8949123474491629
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 7.874897069597069,
+   "RMSE": 77.24488218221529,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.6353018038891616
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 6.806523502320744,
+   "RMSE": 76.13475692310732,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.413443256868957
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 4.435860263770908,
+   "RMSE": 76.31236571550073,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.07884887547920949
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 7.379160137165579,
+   "RMSE": 11.727372889334681,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 22.605939736825853,
+   "RMSE": 30.328468223775655,
+   "n": 25903.0,
+   "skill_vs_persistens": -2.0634840980031988
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 17.884587524233265,
+   "RMSE": 23.949179948744113,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.4236616622746099
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.150498128511856,
+   "RMSE": 24.27629373622111,
+   "n": 25903.0,
+   "skill_vs_persistens": -1.4596970103814106
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 7.278455480758493,
+   "RMSE": 11.144139975004027,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.013647170482163906
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 7.131084896106578,
+   "RMSE": 11.00338207552638,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.033618357163650026
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.8664835164835165,
+   "Brier": 0.13351648351648351,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5923809523809523,
+   "Brier": 0.4076190476190476,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6135164835164835,
+   "Brier": 0.2389625850340136,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5116849816849817,
+   "Brier": 0.48831501831501833,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.8645421245421245,
+   "Brier": 0.10498581414775662,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 1,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.8676556776556776,
+   "Brier": 0.10207906148713025,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 7.9047274725274725,
+   "RMSE": 108.14037648227853,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 11.212084981684981,
+   "RMSE": 108.88089407715337,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.418402471261923
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 9.125067713239142,
+   "RMSE": 78.54756317359612,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.15438106436343402
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 7.874897069597069,
+   "RMSE": 77.24488218221529,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0037737421099054425
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 7.279360057598491,
+   "RMSE": 77.00704334589803,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.07911308986962773
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 6.147429124883679,
+   "RMSE": 76.87244293241214,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2223097954674852
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 12.34432773474115,
+   "RMSE": 18.381561288116238,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 22.605939736825853,
+   "RMSE": 30.328468223775655,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.8312815588332954
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 17.884587524233265,
+   "RMSE": 23.949179948744113,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.4488101667861535
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.150396238536405,
+   "RMSE": 24.276152168947956,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.4703430294915938
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 11.491224300712267,
+   "RMSE": 16.59949818526673,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.06910894237099352
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 11.409917348920377,
+   "RMSE": 16.431503747715286,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.07569552639071808
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.7694505494505495,
+   "Brier": 0.23054945054945056,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5923809523809523,
+   "Brier": 0.4076190476190476,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6135164835164835,
+   "Brier": 0.2389625850340136,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5116849816849817,
+   "Brier": 0.48831501831501833,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.7707692307692308,
+   "Brier": 0.16218066361332423,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 4,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.7669597069597069,
+   "Brier": 0.16323990761007728,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 10.633377289377288,
+   "RMSE": 108.67600032805784,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 11.212084981684981,
+   "RMSE": 108.88089407715337,
+   "n": 27300.0,
+   "skill_vs_persistens": -0.054423695930155835
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 9.125067713239142,
+   "RMSE": 78.54756317359612,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.14184670919604658
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 7.874897069597069,
+   "RMSE": 77.24488218221529,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2594171301093522
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 7.862654403181617,
+   "RMSE": 77.21788807298968,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.26056847328869015
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 7.345162316037254,
+   "RMSE": 77.10881810662596,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.30923523955318977
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 18.924697552445664,
+   "RMSE": 25.971167167623737,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 22.605939736825853,
+   "RMSE": 30.328468223775655,
+   "n": 25903.0,
+   "skill_vs_persistens": -0.19452052928076813
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 17.884587524233265,
+   "RMSE": 23.949179948744113,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.05496045711324904
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.150209871673162,
+   "RMSE": 24.275815655414714,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.04092470585731578
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 15.505174701177785,
+   "RMSE": 21.148876737589795,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.18069101721659853
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 15.266856483037596,
+   "RMSE": 20.964675108343666,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.19328399089449966
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.6349450549450549,
+   "Brier": 0.36505494505494507,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5923809523809523,
+   "Brier": 0.4076190476190476,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6135164835164835,
+   "Brier": 0.2389625850340136,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5116849816849817,
+   "Brier": 0.48831501831501833,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6594871794871795,
+   "Brier": 0.21436841038103932,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 16,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.6534065934065935,
+   "Brier": 0.21814992742714143,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "spread",
+   "modell": "persistens",
+   "MAE": 11.212084981684981,
+   "RMSE": 108.88089407715337,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "spread",
+   "modell": "sesongnaiv",
+   "MAE": 11.212084981684981,
+   "RMSE": 108.88089407715337,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "spread",
+   "modell": "klimatologi",
+   "MAE": 9.125067713239142,
+   "RMSE": 78.54756317359612,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.18613997948240635
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "spread",
+   "modell": "nullmodell",
+   "MAE": 7.874897069597069,
+   "RMSE": 77.24488218221529,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.29764204584064713
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "spread",
+   "modell": "ARX (ridge)",
+   "MAE": 8.165318036409198,
+   "RMSE": 77.22021155908038,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.2717395515867653
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "spread",
+   "modell": "GBM",
+   "MAE": 7.768686192388995,
+   "RMSE": 77.18342921792896,
+   "n": 27300.0,
+   "skill_vs_persistens": 0.3071149384722647
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "persistens",
+   "MAE": 22.605939736825853,
+   "RMSE": 30.328468223775655,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "sesongnaiv",
+   "MAE": 22.605939736825853,
+   "RMSE": 30.328468223775655,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "klimatologi",
+   "MAE": 17.884587524233265,
+   "RMSE": 23.949179948744113,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.20885449875376527
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "nullmodell",
+   "MAE": 18.152616147777266,
+   "RMSE": 24.277660804524906,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.19699794128858839
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "ARX (ridge)",
+   "MAE": 17.462403007221376,
+   "RMSE": 23.617560578833604,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.22753032121135308
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "ubal_mwh",
+   "modell": "GBM",
+   "MAE": 17.73064321451063,
+   "RMSE": 23.86239806500282,
+   "n": 25903.0,
+   "skill_vs_persistens": 0.21566440409346044
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "retning",
+   "modell": "persistens",
+   "treffsikkerhet": 0.5923809523809523,
+   "Brier": 0.4076190476190476,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "retning",
+   "modell": "sesongnaiv",
+   "treffsikkerhet": 0.5923809523809523,
+   "Brier": 0.4076190476190476,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "retning",
+   "modell": "klimatologi",
+   "treffsikkerhet": 0.6135164835164835,
+   "Brier": 0.2389625850340136,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "retning",
+   "modell": "nullmodell",
+   "treffsikkerhet": 0.5116849816849817,
+   "Brier": 0.48831501831501833,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "retning",
+   "modell": "Logistisk",
+   "treffsikkerhet": 0.6038095238095238,
+   "Brier": 0.23623411070263103,
+   "n": 27300.0
+  },
+  {
+   "omraade": "NO5",
+   "h": 96,
+   "mål": "retning",
+   "modell": "GBM",
+   "treffsikkerhet": 0.6057142857142858,
+   "Brier": 0.23714586578033156,
+   "n": 27300.0
+  }
+ ]
+}

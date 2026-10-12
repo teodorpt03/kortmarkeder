@@ -1,0 +1,11 @@
+periode,omraade,snitt_spot,median_abs_spread,andel_spread_over_100,snitt_abs_ubal_mwh
+mar–sep 2025 (timesspot),NO1,51.3015,5.25,0.00296,21.85911
+mar–sep 2025 (timesspot),NO2,61.04535,10.58,0.00321,29.9087
+mar–sep 2025 (timesspot),NO3,11.58368,4.28,0.00281,26.03191
+mar–sep 2025 (timesspot),NO4,3.81803,3.16,0.00864,21.25127
+mar–sep 2025 (timesspot),NO5,35.75048,4.71,0.00257,20.17999
+mar–sep 2026 (15-min spot),NO1,103.31156,5.0,0.00059,22.17065
+mar–sep 2026 (15-min spot),NO2,108.49254,8.12,0.00074,27.66005
+mar–sep 2026 (15-min spot),NO3,78.24505,9.915,0.00158,28.67166
+mar–sep 2026 (15-min spot),NO4,22.12739,6.13,0.00479,20.34323
+mar–sep 2026 (15-min spot),NO5,102.93532,4.31,0.00084,18.76591
