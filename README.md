@@ -1,5 +1,7 @@
 # Prediksjon av pris og volum i korte kraftmarkeder – miniprosjekt
 
+**Rapportside med resultatene:** https://teodorpt03.github.io/kortmarkeder/
+
 Et lite forprosjekt laget i forbindelse med søknad til sommerforskerprosjektet *«Datadrevet prediksjon av pris og volum i korte kraftmarkeder»* ved SINTEF Energi. Prosjektet følger arbeidsoppgavene i utlysningen:
 
 | Utlysningen ber om | Her |
@@ -38,6 +40,7 @@ python -m kortmarkeder.lagring
 python -m kortmarkeder.analyse
 python -m kortmarkeder.benchmark
 python -m kortmarkeder.eksport
+python -m kortmarkeder.rapport
 streamlit run dashboard.py
 python -m pytest
 ```
@@ -48,10 +51,13 @@ python -m pytest
 | `kortmarkeder.analyse` | stiliserte fakta → `results/analyse.json` |
 | `kortmarkeder.benchmark` | benchmark-modeller (ca. 15 min for alle områder) → `results/benchmark.*` |
 | `kortmarkeder.eksport` | flate CSV-tabeller → `results/tabeller/` |
+| `kortmarkeder.rapport` | frittstående rapportside → `docs/index.html` (publiseres med GitHub Pages) |
 | `streamlit run dashboard.py` | dashbordet i nettleseren |
 | `pytest` | tester (går uten nett) |
 
-`data/esett_15min.parquet` ligger allerede ved siden av koden, så analysen og dashbordet virker uten nedlasting. `lagring` henter bare det som er nytt, med tre dagers overlapp fordi eSett kan korrigere tall i etterkant.
+Selve datafilen (`data/esett_15min.parquet`) er ikke med i repoet, fordi den er stor og kan hentes på nytt. Første gang `lagring` kjøres, henter den alt fra januar 2024, og det tar noen minutter. Deretter henter den bare det som er nytt, med tre dagers overlapp fordi eSett kan korrigere tall i etterkant. Ferdige resultater ligger i `results/`, så funnene kan leses uten å kjøre noe.
+
+**Rapportsiden** (`docs/index.html`) er én frittstående HTML-fil med interaktive figurer. GitHub Pages publiserer den når *Settings → Pages → Deploy from a branch* er satt til `main` og mappen `/docs`.
 
 **Løpende oppdatering:** `oppdater.sh` henter nye data og regner ut analysen på nytt. Den kan kjøres daglig med cron (se kommentaren i filen). Dashbordet har også en knapp, «Oppdater data nå».
 

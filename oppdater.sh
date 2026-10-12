@@ -6,4 +6,4 @@ cd "$(dirname "$0")"
 PY="${PYTHON:-python3}"
 [ -x .venv/bin/python ] && PY=.venv/bin/python
 echo "=== $(date '+%Y-%m-%d %H:%M') ==="
-"$PY" -m kortmarkeder.lagring && "$PY" -m kortmarkeder.analyse
+"$PY" -m kortmarkeder.lagring && "$PY" -m kortmarkeder.analyse && "$PY" -m kortmarkeder.eksport && "$PY" -m kortmarkeder.rapport
